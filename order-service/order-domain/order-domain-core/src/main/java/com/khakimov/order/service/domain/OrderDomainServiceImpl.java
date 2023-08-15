@@ -4,7 +4,7 @@ import com.khakimov.order.service.domain.entity.Order;
 import com.khakimov.order.service.domain.entity.Product;
 import com.khakimov.order.service.domain.entity.Restaurant;
 import com.khakimov.order.service.domain.event.OrderCancelEvent;
-import com.khakimov.order.service.domain.event.OrderCreateEvent;
+import com.khakimov.order.service.domain.event.OrderCreatedEvent;
 import com.khakimov.order.service.domain.event.OrderPaidEvent;
 import com.khakimov.order.service.domain.exception.OrderDomainException;
 import lombok.extern.slf4j.Slf4j;
@@ -19,13 +19,13 @@ public class OrderDomainServiceImpl implements OrderDomainService {
     private static final String UTC = "UTC";
 
     @Override
-    public OrderCreateEvent validateAndInitiateOrder(Order order, Restaurant restaurant) {
+    public OrderCreatedEvent validateAndInitiateOrder(Order order, Restaurant restaurant) {
         validateRestaurant(restaurant);
         setOrderProductInformation(order, restaurant);
         order.validateOrder();
         order.initializeOrder();
         log.info("Order with id: {} is initiated", order.getId().getValue());
-        return new OrderCreateEvent(order, ZonedDateTime.now(ZoneId.of(UTC)));
+        return new OrderCreatedEvent(order, ZonedDateTime.now(ZoneId.of(UTC)));
     }
 
 
