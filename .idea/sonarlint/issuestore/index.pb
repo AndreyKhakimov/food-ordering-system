@@ -29,8 +29,6 @@ W
 'order-service/order-data-access/pom.xml,f/2/f258deaeb6ebc953857cf7cb5342c2c6d7f03934
 }
 Mcommon/common-domain/src/main/java/com/khakimov/domain/event/DomainEvent.java,1/0/10051688da53769b0c4c3351f01567f62d0e2367
-R
-"order-service/order-domain/pom.xml,6/c/6c488d4235eb8af9fe6c7a0dcd6d396f5fb3b9db
 d
 4order-service/order-domain/order-domain-core/pom.xml,e/2/e2c9ec2a77daaaa98761010294a2cfad7cd6acdd
 €
@@ -51,14 +49,8 @@ Ocommon/common-domain/src/main/java/com/khakimov/domain/valueobject/OrderId.java
 €order-service/order-domain/order-domain-core/src/main/java/com/khakimov/order/service/domain/exception/OrderDomainException.java,a/2/a295a5bc63c23eab7b548207ba3d662fbcbd3eed
 ©
 yorder-service/order-domain/order-domain-core/src/main/java/com/khakimov/order/service/domain/valueobject/OrderItemId.java,5/a/5aaac96b908dcf3256b0e768b50863011fa68589
-E
-order-service/pom.xml,d/3/d3bf53ecc442740843266a635cbfe9807b992566
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 ¢
 rorder-service/order-domain/order-domain-core/src/main/java/com/khakimov/order/service/domain/event/OrderEvent.java,1/7/17791a29440cb1d3d11d410683a454484b2ef46e
-l
-<order-service/order-domain/order-application-service/pom.xml,7/8/788638a3f575d9e226f07937dfe43f5e87b6139f
 ‹
 [common/common-domain/src/main/java/com/khakimov/domain/valueobject/OrderApprovalStatus.java,6/2/62c9818132a7bdc60d1252384622ba5c05b148af
 ~
