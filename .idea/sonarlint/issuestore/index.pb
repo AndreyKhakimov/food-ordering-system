@@ -221,5 +221,5 @@ l
 <order-service/order-domain/order-application-service/pom.xml,7/8/788638a3f575d9e226f07937dfe43f5e87b6139f
 ±
 €order-service/order-domain/order-application-service/src/main/java/com/khakimov/order/service/domain/mapper/OrderDataMapper.java,f/8/f8101bf0a100c18bc5ae6566bffaba6d78fdcb17
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+Á
+order-service/order-domain/order-application-service/src/test/java/com/khakimov/ordering/system/order/service/domain/OrderTestConfiguration.java,0/c/0cc3fb3ad2b6aa3bfabd6639086010a85ecc8c32
